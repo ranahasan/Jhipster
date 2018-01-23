@@ -47,8 +47,8 @@ spring:
         database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
         database: MYSQL
         show-sql: true
-	generate-ddl: false
-    	hibernate:
+        generate-ddl: false
+        hibernate:
             ddl-auto: none
             naming-strategy: org.hibernate.cfg.EJB3NamingStrategy
         properties:

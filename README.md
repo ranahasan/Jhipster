@@ -1,6 +1,7 @@
 # Jhipster
-Jhipster 4.3, Angular step by step
+###### Jhipster 4.3, Angular step by step
 
+```
 Check OS:
 sb_release -a
 uname -a
@@ -53,3 +54,5 @@ curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add - echo "deb
 sudo apt-get update && sudo apt-get install yarn
 yarn global add yo
 yarn global add generator-jhipster
+
+```
