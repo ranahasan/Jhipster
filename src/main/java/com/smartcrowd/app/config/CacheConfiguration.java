@@ -42,6 +42,8 @@ public class CacheConfiguration {
         return cm -> {
             cm.createCache("users", jcacheConfiguration);
             cm.createCache(com.smartcrowd.app.domain.User.class.getName(), jcacheConfiguration);
+            cm.createCache(com.smartcrowd.app.domain.InvestorTypes.class.getName(), jcacheConfiguration);
+            cm.createCache(com.smartcrowd.app.domain.InvestorRegistration.class.getName(), jcacheConfiguration);
             cm.createCache(com.smartcrowd.app.domain.Authority.class.getName(), jcacheConfiguration);
             cm.createCache(com.smartcrowd.app.domain.User.class.getName() + ".authorities", jcacheConfiguration);
             cm.createCache(com.smartcrowd.app.domain.SocialUserConnection.class.getName(), jcacheConfiguration);

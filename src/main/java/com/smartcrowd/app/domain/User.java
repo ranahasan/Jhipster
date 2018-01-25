@@ -96,6 +96,13 @@ public class User extends AbstractAuditingEntity implements Serializable {
     @BatchSize(size = 20)
     private Set<Authority> authorities = new HashSet<>();
 
+    /*@ManyToOne
+    @JoinColumn(name = "sc_reg_id")
+    private */
+
+
+
+
     public Long getId() {
         return id;
     }
