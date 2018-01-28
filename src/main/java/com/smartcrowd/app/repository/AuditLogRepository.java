@@ -1,6 +1,6 @@
 package com.smartcrowd.app.repository;
 
-import gov.step.app.domain.AuditLog;
+import com.smartcrowd.app.domain.AuditLog;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

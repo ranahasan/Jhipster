@@ -1,6 +1,6 @@
 package com.smartcrowd.app.repository.search;
 
-import gov.step.app.domain.UmracActionSetup;
+import com.smartcrowd.app.domain.UmracActionSetup;
 import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;
 
 /**

@@ -47,6 +47,16 @@ public class CacheConfiguration {
             cm.createCache(com.smartcrowd.app.domain.Authority.class.getName(), jcacheConfiguration);
             cm.createCache(com.smartcrowd.app.domain.User.class.getName() + ".authorities", jcacheConfiguration);
             cm.createCache(com.smartcrowd.app.domain.SocialUserConnection.class.getName(), jcacheConfiguration);
+            cm.createCache(com.smartcrowd.app.domain.AuditLog.class.getName(), jcacheConfiguration);
+            cm.createCache(com.smartcrowd.app.domain.AuditLogHistory.class.getName(), jcacheConfiguration);
+            cm.createCache(com.smartcrowd.app.domain.UmracActionSetup.class.getName(), jcacheConfiguration);
+            cm.createCache(com.smartcrowd.app.domain.UmracIdentitySetup.class.getName(), jcacheConfiguration);
+            cm.createCache(com.smartcrowd.app.domain.UmracModuleSetup.class.getName(), jcacheConfiguration);
+            cm.createCache(com.smartcrowd.app.domain.UmracRightsLog.class.getName(), jcacheConfiguration);
+            cm.createCache(com.smartcrowd.app.domain.UmracRightsSetup.class.getName(), jcacheConfiguration);
+            cm.createCache(com.smartcrowd.app.domain.UmracRoleAssignUser.class.getName(), jcacheConfiguration);
+            cm.createCache(com.smartcrowd.app.domain.UmracRoleSetup.class.getName(), jcacheConfiguration);
+            cm.createCache(com.smartcrowd.app.domain.UmracSubmoduleSetup.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }

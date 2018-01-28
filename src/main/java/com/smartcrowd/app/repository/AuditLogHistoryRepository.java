@@ -1,6 +1,6 @@
 package com.smartcrowd.app.repository;
 
-import gov.step.app.domain.AuditLogHistory;
+import com.smartcrowd.app.domain.AuditLogHistory;
 
 import org.springframework.data.jpa.repository.*;
 

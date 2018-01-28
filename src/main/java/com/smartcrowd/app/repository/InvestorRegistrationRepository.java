@@ -11,7 +11,4 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface InvestorRegistrationRepository extends JpaRepository<InvestorRegistration, Long> {
 
-    List<InvestorRegistration> {}
-    @Opti
-
 }

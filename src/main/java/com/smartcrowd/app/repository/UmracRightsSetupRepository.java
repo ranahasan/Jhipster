@@ -1,6 +1,6 @@
 package com.smartcrowd.app.repository;
 
-import gov.step.app.domain.UmracRightsSetup;
+import com.smartcrowd.app.domain.UmracRightsSetup;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

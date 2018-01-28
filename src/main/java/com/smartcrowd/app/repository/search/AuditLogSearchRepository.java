@@ -1,6 +1,6 @@
 package com.smartcrowd.app.repository.search;
 
-import gov.step.app.domain.AuditLog;
+import com.smartcrowd.app.domain.AuditLog;
 import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;
 
 /**

@@ -1,7 +1,7 @@
 package com.smartcrowd.app.repository;
 
-import gov.step.app.domain.UmracIdentitySetup;
-import gov.step.app.domain.UmracRoleAssignUser;
+import com.smartcrowd.app.domain.UmracIdentitySetup;
+import com.smartcrowd.app.domain.UmracRoleAssignUser;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
